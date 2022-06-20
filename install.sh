@@ -3,7 +3,7 @@
 # instalar php 8.1 y activar
 echo instalando php 8.1 y activandolo
 sudo apt update && sudo apt upgrade -y
-sudo apt install php8.1 -y
+sudo apt install php8.1 libapache2-mod-php8.1 -y
 sudo a2dismod php8.0
 sudo a2enmod php.8.1
 sudo systemctl restart apache2
