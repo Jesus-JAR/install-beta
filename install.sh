@@ -3,7 +3,6 @@
 # instalar php 8.1 y activar
 echo instalando php 8.1 y activandolo
 sleep 2s
-sudo apt update && sudo apt upgrade -y
 sudo apt install php8.1 -y
 sudo a2dismod php8.0
 sudo a2enmod php.8.1
