@@ -2,7 +2,6 @@
 
 # instalar php 8.1 y activar
 echo instalando php 8.1 y activandolo
-sudo a2dismod php
 sudo a2dismod php8.0 -y
 sudo apt purge php8.0 -y
 sudo apt remove php libapache2-mod-php
