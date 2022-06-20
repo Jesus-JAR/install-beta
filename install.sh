@@ -1,7 +1,13 @@
+
 #!/bin/bash
 
 # instalar php 8.1 y activar
-
+echo instalando php 8.1 y activandolo
+sleep 2s
+sudo apt install php8.1 -y
+sudo a2dismod php8.0
+sudo a2enmod php.8.1
+sudo systemctl restart apache2
 
 # Instalar composer
 echo Instalar Composer debian
