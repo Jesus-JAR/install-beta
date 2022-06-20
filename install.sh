@@ -32,7 +32,7 @@ cd /var/www/
 rm -rf html/
 
 # clonar carpeta
-git clone https://github.com/Jesus-JAR/proyecto.git
+git clone https://github.com/Jesus-JAR/time-track.git proyecto
 # ir a proyecto
 cd /var/www/proyecto
 
