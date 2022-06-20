@@ -8,6 +8,7 @@ sudo apt purge php8.0
 sudo apt remove php libapache2-mod-php
 sudo apt update && sudo apt upgrade -y
 sudo apt install php8.1 -y
+sudo a2dismod php8.0
 sudo a2enmod php.8.1
 sudo systemctl restart apache2
 
